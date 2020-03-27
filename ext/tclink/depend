@@ -1,0 +1,5 @@
+rb_tclink.o: rb_tclink.c tclink.h config.h
+tclink.o: tclink.c tclink.h config.h
+mem.o: mem.c
+validate.o: validate.c
+verisign.o: verisign.c
