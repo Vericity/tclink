@@ -11,9 +11,9 @@ Within ext/tclink the original source has been preserved with the
 following changes to support building a gem that can be configured and
 installed with native extensions:
 
-* Patrick Logan
-** Renamed the original extconf.rb to create_makefile.rb
-** Defined extconf.rb to run the shell command build.sh
+1. Patrick Logan
+⋅⋅1. Renamed the original extconf.rb to create_makefile.rb
+⋅⋅2. Defined extconf.rb to run the shell command build.sh
 
 Note that build.sh is the TrustCommerce script to configure a makefile
 for the current environment. This has been successful on Linux. An
